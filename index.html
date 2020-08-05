@@ -20,10 +20,12 @@
           </td></tr>
           <tr><td><div class="dropdown">
             <button onclick="myFunction()" value="Case Status" class="dropbtn"><span style="color:white">Case Status</span></button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="www.google.com">Link 1</a>
-              <a href="www.google.com">Link 2</a>
-              <a href="www.google.com">Link 3</a>
+            <div class="dropdown-content">
+              <ol>  
+              <li><a href="www.google.com"> Link 1</a></li>
+              <li><a href="www.google.com"> Link 2</a></li>
+              <li><a href="www.google.com"> Link 3</a></li>
+            </ol>
             </div>
           </div></td></tr>
           <tr><td id="td2">
@@ -42,13 +44,18 @@
           </td></tr>
           <tr><td id="td4">
             <div class="dropdown">
-                <button value="HOME" class="dropbtn" onclick="window.location.href= ' www.google.com'; " id="but1">HOME</button>
-                 
+                <a href="www.google.com"><span style="color:white;text-align: center;
+                    ">Logout</span></a>    
                  </div>
                </div>
                
           </td></tr>
-      </table>    
+      </table>   
+      <div id="form1div"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <input type="dropdown" id="postYourAdd" onclick="postYourAdd()">OPEN</button>
+        <iframe id="forPostyouradd" data-src="form1.html" src="about:blank" width="1000" height="500" style="background:#ffffff"></iframe>     
+    </div> 
 
 </body>
 
