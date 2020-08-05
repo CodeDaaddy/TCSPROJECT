@@ -1,84 +1,121 @@
-#table1{
+#table1 {
     background-color: #504D4C;
+    margin-left: 0px;
+    margin-top: 0px;
 }
+
+
 /* Dropdown Button */
+
 .dropbtn {
-    background-color: #3498DB;
+    background-color: #504D4C;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
-  
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #504D4C;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+
+/*.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}*/
+
+
+/* Links inside the dropdown */
+
+
+/*.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
+}*/
 
-  #ref1{
-    
-       background-color: #3498DB;
-       color: white;
-       padding: 16px;
-       font-size: 16px;
-       border: none;
-       align-self: center;
-   
-  }
-  #th1{
+
+/* Change color of dropdown links on hover */
+
+
+/*.dropdown-content a:hover {
+    background-color: #ddd
+}*/
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+#ref1 {
+    background-color: #504D4C;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    align-self: center;
+}
+
+#th1 {
     font-size: 18px;
     font-style: bold;
     text-align: center;
-  }
-  #bt1{
+}
+
+
+/*#bt1 {
     background-color: #3498DB;
-    color: #3498DB;
+    color: #504D4C;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    
-  }
-  #tr1{
-      background-color:#3498DB;
-  }
-  #tr2{
-      background-color:: #3498DB;
-  }
-  #td2{
-      background-color: pink;
-  }
-  #td3{
-    background-color:blue;
+}*/
+
+#tr1 {
+    background-color: #504D4C;
+}
+
+#tr2 {
+    background-color: : #3498DB;
+}
+
+#td2 {
+    background-color: orange;
+}
+
+#td3 {
+    background-color: rgb(27, 171, 255);
+}
+
+#td5 {
+    background-color: rgb(255, 160, 176)
+}
+
+#Id {
+    background-color: #504D4C;
 }
