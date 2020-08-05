@@ -101,7 +101,7 @@
 }
 
 #tr2 {
-    background-color: : #3498DB;
+    background-color: : #504D4C;
 }
 
 #td2 {
@@ -118,4 +118,25 @@
 
 #Id {
     background-color: #504D4C;
+}
+
+#tr1 {
+    background-color: #504D4C;
+}
+
+#tr2 {
+    background-color: : #3498DB;
+}
+
+#td2 {
+    background-color: pink;
+}
+
+#td3 {
+    background-color: blue;
+}
+
+#form1div {
+    vertical-align: auto;
+    align-items: center;
 }
